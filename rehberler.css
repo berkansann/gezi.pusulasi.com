@@ -1,0 +1,14 @@
+h2{
+    color: white;
+}
+
+#üst-navbar{
+    background-color: rgb(206, 153, 0);
+    border-style: solid;
+    border-width: 2px;
+    border-radius: 10px;
+    border-color: white;
+    text-align: right;
+    line-height: 16px;
+    padding: 10px;
+}
