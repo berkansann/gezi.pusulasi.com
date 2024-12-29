@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GEZİ PUSULASI.com</title>
+    <link rel="stylesheet" href="genel.css">
+
+    <script>
+        function zeminKirmizi(){
+            document.body.style.background='red';
+        }
+        function zeminBeyaz(){
+            document.body.style.background='white';
+        }
+        function baslik(){
+            document.getElementById('demo').innerHTML ='hello world'
+        }
+        function resim1goster(){
+            document.getElementById('resim1').style.zIndex=2;
+            document.getElementById('resim2').style.zIndex=1;
+            document.getElementById('resim3').style.zIndex=1;
+        }
+        function resim2goster(){
+            document.getElementById('resim1').style.zIndex=1;
+            document.getElementById('resim2').style.zIndex=2;
+            document.getElementById('resim3').style.zIndex=1;
+        }
+        function resim3goster(){
+            document.getElementById('resim1').style.zIndex=1;
+            document.getElementById('resim2').style.zIndex=1;
+            document.getElementById('resim3').style.zIndex=2;
+        }
+
+    </script>
+    
+
+
+</head>
+<body>
+<style>
+body {
+    background-color: black;
+    margin:0 auto;
+    text-align:center;
+    width:960px;
+    color: wheat;
+}
+#üst_kısım {
+    text-align: center;
+
+}
+#qr_kod{
+    height: 400px;
+    width: 400px;
+    background-color: rgb(206, 153, 0);
+    border-style: solid;
+    border-width: 4px;
+    border-radius: 15px;
+    border-color: white;
+    text-align: right;
+    line-height: 16px;
+    padding: 10px;
+}
+#qr_button{
+    background-color: rgb(206, 153, 0);
+    border-style: solid;
+    border-width: 4px;
+    border-radius: 15px;
+    border-color: white;
+    text-align: right;
+    line-height: 16px;
+    padding: 10px;
+    color: white;
+}
+
+    
+</style>  
+<br> 
+<h2 id="üst_kısım">Windows Form Uygulamasını İndirin</h2>
+<br>
+<h3 style="color: white;">Not Hesaplayıcı Form uygulamasının .exe dosyasını aşağıda bulunan QR Kodunu telefonunuza okutarak veya indirme butonuna tıklayarak indirebilirsiniz.</h3>
+<h3>Bağlantı Google Drive'a yönlendirecektir. Bağlantıyı dosya halinde indiriniz.</h3><br><br>
+<img src="QR Setup Dosyası.png" id="qr_kod"><br><br><br><br>
+<a href="https://drive.google.com/drive/folders/172Y_GwtMmKoBNq3ZAY0Wl1lvbVQl4Gpf?usp=sharing&authuser=0" id="qr_button">İNDİRMEK İÇİN TIKLAYINIZ</a>
+
+    
+</body>
+</html>
